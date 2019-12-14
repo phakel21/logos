@@ -11,7 +11,7 @@ public class TestClass {
     public TestClass() {
     }
 
-    private void testMethod() {
-        System.out.println("test method" + a);
+    private void testReflection() {
+        System.out.println("int a = " + a);
     }
 }
