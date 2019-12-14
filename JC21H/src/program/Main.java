@@ -22,7 +22,6 @@ public class Main {
         System.out.println("Methods:");
         Method[] methods = refClass.getDeclaredMethods();
         for (Method method : methods){
-            method.setAccessible(true);
             System.out.println(method.getName());
         }
     }
