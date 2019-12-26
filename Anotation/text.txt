@@ -1,0 +1,2 @@
+int age
+java.lang.String name
